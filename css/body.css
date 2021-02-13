@@ -1,0 +1,14 @@
+img.github {
+    width: 10%;
+    height: 10%;
+    cursor: pointer;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    font-size: 60%;
+    margin: 1.5%;
+    font-style: italic;
+}

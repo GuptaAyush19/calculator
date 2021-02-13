@@ -1,0 +1,62 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.phone {
+    /* To align the element */
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+    /* Set custom property of the element */
+    background-color: black;
+    border: 5px solid grey;
+    border-radius: 35px;
+    width: 300px;
+    height: 510px;
+}
+
+.camera,
+.speaker {
+    position: relative;
+    height: 4px;
+}
+
+.speaker {
+    background-color: rgb(50, 50, 50);
+    margin: 10px 130px auto;
+    border-radius: 20px;
+    width: 40px;
+}
+
+.camera {
+    background-color: rgb(20, 20, 55);
+    margin: -4px 180px auto;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+}
+
+.time {
+    color: white;
+    font-size: 8px;
+    text-indent: 30px;
+    letter-spacing: 1px;
+}
+
+img {
+    position: relative;
+    height: 12px;
+    width: auto;
+    float: right;
+}
+
+img.wifi {
+    margin: -12px 30px;
+}
+
+img.battery {
+    margin: -12px 50px;
+}

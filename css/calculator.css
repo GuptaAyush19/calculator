@@ -1,0 +1,84 @@
+.calculator {
+    margin-left: 5px;
+}
+
+.display,
+.blur-display {
+    color: white;
+    text-align: right;
+    margin-top: 30px;
+    margin-right: 30px;
+    font-size: 75px;
+    height: 90px;
+}
+
+.blur-display {
+    height: 0;
+    padding: 0;
+    font-size: 15px;
+    margin-top: 30px;
+    margin-bottom: 0px;
+}
+
+.operator,
+.other-operator,
+.integer div {
+    text-align: center;
+    vertical-align: middle;
+    font-weight: bold;
+    font-size: x-large;
+    line-height: 52px;
+    color: white;
+    width: 52px;
+    height: 52px;
+    border-radius: 50%;
+    margin: 10px;
+    float: left;
+}
+
+.operator:hover,
+.other-operator:hover,
+.integer div:hover {
+    cursor: pointer;
+}
+
+.operator {
+    float: none;
+    margin-left: 225px;
+    margin-bottom: 12px;
+    background-color: orange;
+}
+
+.operator:hover {
+    background-color: rgb(255, 102, 0);
+}
+
+.other-operator {
+    color: black;
+    background-color: grey;
+}
+
+.other-operator:hover {
+    background-color: dimgray;
+}
+
+.integer {
+    margin-right: 10px;
+}
+
+.integer div {
+    display: inline;
+    margin-top: 1px;
+    background-color: slategray;
+}
+
+.integer div:hover {
+    background-color: rgb(50, 70, 125);
+}
+
+.integer .zero {
+    text-align: left;
+    text-indent: 25px;
+    border-radius: 40px;
+    width: 124px;
+}
